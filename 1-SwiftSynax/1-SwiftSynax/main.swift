@@ -10,6 +10,7 @@ import Foundation
 
 print("Hello, World!")
 
+<<<<<<< HEAD
 class SurveyQuestion {
     var text: String
     var response: String?
@@ -42,3 +43,5 @@ var someString = "hello"
 var anotherString = "world"
 swapTwoValues(&someString, &anotherString)
 print("First:\(someString)----Next:\(anotherString)")
+=======
+>>>>>>> 1343a3645ab0afd0354e8c159d78dbe08d3eb457
