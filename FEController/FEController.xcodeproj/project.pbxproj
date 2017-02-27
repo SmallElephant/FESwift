@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8C74B291DD32D2A008EE247 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C74B281DD32D2A008EE247 /* AppDelegate.swift */; };
+		A8C74B2B1DD32D2A008EE247 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C74B2A1DD32D2A008EE247 /* ViewController.swift */; };
+		A8C74B2E1DD32D2A008EE247 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8C74B2C1DD32D2A008EE247 /* Main.storyboard */; };
+		A8C74B311DD32D2A008EE247 /* FEController.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8C74B2F1DD32D2A008EE247 /* FEController.xcdatamodeld */; };
+		A8C74B331DD32D2A008EE247 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8C74B321DD32D2A008EE247 /* Assets.xcassets */; };
+		A8C74B361DD32D2A008EE247 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8C74B341DD32D2A008EE247 /* LaunchScreen.storyboard */; };
+		A8C74B411DD32D2A008EE247 /* FEControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C74B401DD32D2A008EE247 /* FEControllerTests.swift */; };
+		A8C74B4C1DD32D2A008EE247 /* FEControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C74B4B1DD32D2A008EE247 /* FEControllerUITests.swift */; };
+		A8C74B5A1DD32E98008EE247 /* AudioPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C74B591DD32E98008EE247 /* AudioPlayerManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8C74B3D1DD32D2A008EE247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8C74B1D1DD32D2A008EE247 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8C74B241DD32D2A008EE247;
+			remoteInfo = FEController;
+		};
+		A8C74B481DD32D2A008EE247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8C74B1D1DD32D2A008EE247 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8C74B241DD32D2A008EE247;
+			remoteInfo = FEController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A8C74B251DD32D2A008EE247 /* FEController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FEController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C74B281DD32D2A008EE247 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8C74B2A1DD32D2A008EE247 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8C74B2D1DD32D2A008EE247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8C74B301DD32D2A008EE247 /* FEController.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FEController.xcdatamodel; sourceTree = "<group>"; };
+		A8C74B321DD32D2A008EE247 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8C74B351DD32D2A008EE247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8C74B371DD32D2A008EE247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8C74B3C1DD32D2A008EE247 /* FEControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FEControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C74B401DD32D2A008EE247 /* FEControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FEControllerTests.swift; sourceTree = "<group>"; };
+		A8C74B421DD32D2A008EE247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8C74B471DD32D2A008EE247 /* FEControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FEControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C74B4B1DD32D2A008EE247 /* FEControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FEControllerUITests.swift; sourceTree = "<group>"; };
+		A8C74B4D1DD32D2A008EE247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8C74B591DD32E98008EE247 /* AudioPlayerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayerManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8C74B221DD32D2A008EE247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8C74B391DD32D2A008EE247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8C74B441DD32D2A008EE247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8C74B1C1DD32D2A008EE247 = {
+			isa = PBXGroup;
+			children = (
+				A8C74B271DD32D2A008EE247 /* FEController */,
+				A8C74B3F1DD32D2A008EE247 /* FEControllerTests */,
+				A8C74B4A1DD32D2A008EE247 /* FEControllerUITests */,
+				A8C74B261DD32D2A008EE247 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8C74B261DD32D2A008EE247 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8C74B251DD32D2A008EE247 /* FEController.app */,
+				A8C74B3C1DD32D2A008EE247 /* FEControllerTests.xctest */,
+				A8C74B471DD32D2A008EE247 /* FEControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8C74B271DD32D2A008EE247 /* FEController */ = {
+			isa = PBXGroup;
+			children = (
+				A8C74B281DD32D2A008EE247 /* AppDelegate.swift */,
+				A8C74B2A1DD32D2A008EE247 /* ViewController.swift */,
+				A8C74B2C1DD32D2A008EE247 /* Main.storyboard */,
+				A8C74B321DD32D2A008EE247 /* Assets.xcassets */,
+				A8C74B341DD32D2A008EE247 /* LaunchScreen.storyboard */,
+				A8C74B371DD32D2A008EE247 /* Info.plist */,
+				A8C74B2F1DD32D2A008EE247 /* FEController.xcdatamodeld */,
+				A8C74B591DD32E98008EE247 /* AudioPlayerManager.swift */,
+			);
+			path = FEController;
+			sourceTree = "<group>";
+		};
+		A8C74B3F1DD32D2A008EE247 /* FEControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8C74B401DD32D2A008EE247 /* FEControllerTests.swift */,
+				A8C74B421DD32D2A008EE247 /* Info.plist */,
+			);
+			path = FEControllerTests;
+			sourceTree = "<group>";
+		};
+		A8C74B4A1DD32D2A008EE247 /* FEControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A8C74B4B1DD32D2A008EE247 /* FEControllerUITests.swift */,
+				A8C74B4D1DD32D2A008EE247 /* Info.plist */,
+			);
+			path = FEControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8C74B241DD32D2A008EE247 /* FEController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8C74B501DD32D2A008EE247 /* Build configuration list for PBXNativeTarget "FEController" */;
+			buildPhases = (
+				A8C74B211DD32D2A008EE247 /* Sources */,
+				A8C74B221DD32D2A008EE247 /* Frameworks */,
+				A8C74B231DD32D2A008EE247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FEController;
+			productName = FEController;
+			productReference = A8C74B251DD32D2A008EE247 /* FEController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8C74B3B1DD32D2A008EE247 /* FEControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8C74B531DD32D2A008EE247 /* Build configuration list for PBXNativeTarget "FEControllerTests" */;
+			buildPhases = (
+				A8C74B381DD32D2A008EE247 /* Sources */,
+				A8C74B391DD32D2A008EE247 /* Frameworks */,
+				A8C74B3A1DD32D2A008EE247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8C74B3E1DD32D2A008EE247 /* PBXTargetDependency */,
+			);
+			name = FEControllerTests;
+			productName = FEControllerTests;
+			productReference = A8C74B3C1DD32D2A008EE247 /* FEControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A8C74B461DD32D2A008EE247 /* FEControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8C74B561DD32D2A008EE247 /* Build configuration list for PBXNativeTarget "FEControllerUITests" */;
+			buildPhases = (
+				A8C74B431DD32D2A008EE247 /* Sources */,
+				A8C74B441DD32D2A008EE247 /* Frameworks */,
+				A8C74B451DD32D2A008EE247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8C74B491DD32D2A008EE247 /* PBXTargetDependency */,
+			);
+			name = FEControllerUITests;
+			productName = FEControllerUITests;
+			productReference = A8C74B471DD32D2A008EE247 /* FEControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8C74B1D1DD32D2A008EE247 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = FlyElephant;
+				TargetAttributes = {
+					A8C74B241DD32D2A008EE247 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					A8C74B3B1DD32D2A008EE247 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A8C74B241DD32D2A008EE247;
+					};
+					A8C74B461DD32D2A008EE247 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A8C74B241DD32D2A008EE247;
+					};
+				};
+			};
+			buildConfigurationList = A8C74B201DD32D2A008EE247 /* Build configuration list for PBXProject "FEController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8C74B1C1DD32D2A008EE247;
+			productRefGroup = A8C74B261DD32D2A008EE247 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8C74B241DD32D2A008EE247 /* FEController */,
+				A8C74B3B1DD32D2A008EE247 /* FEControllerTests */,
+				A8C74B461DD32D2A008EE247 /* FEControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8C74B231DD32D2A008EE247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C74B361DD32D2A008EE247 /* LaunchScreen.storyboard in Resources */,
+				A8C74B331DD32D2A008EE247 /* Assets.xcassets in Resources */,
+				A8C74B2E1DD32D2A008EE247 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8C74B3A1DD32D2A008EE247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8C74B451DD32D2A008EE247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8C74B211DD32D2A008EE247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C74B2B1DD32D2A008EE247 /* ViewController.swift in Sources */,
+				A8C74B5A1DD32E98008EE247 /* AudioPlayerManager.swift in Sources */,
+				A8C74B291DD32D2A008EE247 /* AppDelegate.swift in Sources */,
+				A8C74B311DD32D2A008EE247 /* FEController.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8C74B381DD32D2A008EE247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C74B411DD32D2A008EE247 /* FEControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8C74B431DD32D2A008EE247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8C74B4C1DD32D2A008EE247 /* FEControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8C74B3E1DD32D2A008EE247 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8C74B241DD32D2A008EE247 /* FEController */;
+			targetProxy = A8C74B3D1DD32D2A008EE247 /* PBXContainerItemProxy */;
+		};
+		A8C74B491DD32D2A008EE247 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8C74B241DD32D2A008EE247 /* FEController */;
+			targetProxy = A8C74B481DD32D2A008EE247 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8C74B2C1DD32D2A008EE247 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8C74B2D1DD32D2A008EE247 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8C74B341DD32D2A008EE247 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8C74B351DD32D2A008EE247 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8C74B4E1DD32D2A008EE247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8C74B4F1DD32D2A008EE247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8C74B511DD32D2A008EE247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FEController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FlyElephant.FEController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A8C74B521DD32D2A008EE247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FEController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FlyElephant.FEController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A8C74B541DD32D2A008EE247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FEControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FlyElephant.FEControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FEController.app/FEController";
+			};
+			name = Debug;
+		};
+		A8C74B551DD32D2A008EE247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FEControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FlyElephant.FEControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FEController.app/FEController";
+			};
+			name = Release;
+		};
+		A8C74B571DD32D2A008EE247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FEControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FlyElephant.FEControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FEController;
+			};
+			name = Debug;
+		};
+		A8C74B581DD32D2A008EE247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FEControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = FlyElephant.FEControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FEController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8C74B201DD32D2A008EE247 /* Build configuration list for PBXProject "FEController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C74B4E1DD32D2A008EE247 /* Debug */,
+				A8C74B4F1DD32D2A008EE247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8C74B501DD32D2A008EE247 /* Build configuration list for PBXNativeTarget "FEController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C74B511DD32D2A008EE247 /* Debug */,
+				A8C74B521DD32D2A008EE247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A8C74B531DD32D2A008EE247 /* Build configuration list for PBXNativeTarget "FEControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C74B541DD32D2A008EE247 /* Debug */,
+				A8C74B551DD32D2A008EE247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A8C74B561DD32D2A008EE247 /* Build configuration list for PBXNativeTarget "FEControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8C74B571DD32D2A008EE247 /* Debug */,
+				A8C74B581DD32D2A008EE247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A8C74B2F1DD32D2A008EE247 /* FEController.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A8C74B301DD32D2A008EE247 /* FEController.xcdatamodel */,
+			);
+			currentVersion = A8C74B301DD32D2A008EE247 /* FEController.xcdatamodel */;
+			path = FEController.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A8C74B1D1DD32D2A008EE247 /* Project object */;
+}
