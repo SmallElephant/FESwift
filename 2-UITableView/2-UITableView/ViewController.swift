@@ -8,6 +8,15 @@
 
 import UIKit
 
+<<<<<<< HEAD
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+    }
+
+=======
 let CellIdentifier = "UITableViewCellIdentifier"
 
 class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
@@ -24,10 +33,15 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         self.setup()
     }
     
+>>>>>>> 1343a3645ab0afd0354e8c159d78dbe08d3eb457
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+<<<<<<< HEAD
+
+
+=======
     //MARK: UITableViewDataSource
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
@@ -88,5 +102,6 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         self.data=["中山郎","FlyElephant","QQ群:228407086","keso","博客","iOS","Swift"]
     }
     
+>>>>>>> 1343a3645ab0afd0354e8c159d78dbe08d3eb457
 }
 

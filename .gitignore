@@ -4,7 +4,11 @@
 
 ## Build generated
 build/
+<<<<<<< HEAD
+DerivedData
+=======
 DerivedData/
+>>>>>>> 1343a3645ab0afd0354e8c159d78dbe08d3eb457
 
 ## Various settings
 *.pbxuser
@@ -15,17 +19,40 @@ DerivedData/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
+<<<<<<< HEAD
+xcuserdata
+
+## Other
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+=======
 xcuserdata/
 
 ## Other
 *.moved-aside
 *.xcuserstate
+>>>>>>> 1343a3645ab0afd0354e8c159d78dbe08d3eb457
 
 ## Obj-C/Swift specific
 *.hmap
 *.ipa
+<<<<<<< HEAD
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+.build/
+=======
 *.dSYM.zip
 *.dSYM
+>>>>>>> 1343a3645ab0afd0354e8c159d78dbe08d3eb457
 
 # CocoaPods
 #
@@ -47,6 +74,12 @@ Carthage/Build
 # It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the 
 # screenshots whenever they are needed.
 # For more information about the recommended setup visit:
+<<<<<<< HEAD
+# https://github.com/fastlane/fastlane/blob/master/docs/Gitignore.md
+
+fastlane/report.xml
+fastlane/screenshots
+=======
 # https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Gitignore.md
 
 fastlane/report.xml
@@ -58,3 +91,4 @@ fastlane/screenshots
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+>>>>>>> 1343a3645ab0afd0354e8c159d78dbe08d3eb457

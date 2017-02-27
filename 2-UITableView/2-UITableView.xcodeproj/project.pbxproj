@@ -398,11 +398,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "2-UITableView/Info.plist";
+<<<<<<< HEAD
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-SmallElephant.--UITableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+=======
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.talkmate.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "7860769e-f377-46d8-8343-12caf9c536da";
+>>>>>>> 1343a3645ab0afd0354e8c159d78dbe08d3eb457
 			};
 			name = Debug;
 		};
@@ -411,11 +417,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "2-UITableView/Info.plist";
+<<<<<<< HEAD
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "github.com-SmallElephant.--UITableView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+=======
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.talkmate.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "7860769e-f377-46d8-8343-12caf9c536da";
+>>>>>>> 1343a3645ab0afd0354e8c159d78dbe08d3eb457
 			};
 			name = Release;
 		};
@@ -486,7 +498,10 @@
 				C5968F2F1D04120F009BF877 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+<<<<<<< HEAD
+=======
 			defaultConfigurationName = Release;
+>>>>>>> 1343a3645ab0afd0354e8c159d78dbe08d3eb457
 		};
 		C5968F301D04120F009BF877 /* Build configuration list for PBXNativeTarget "2-UITableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -495,7 +510,10 @@
 				C5968F321D04120F009BF877 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+<<<<<<< HEAD
+=======
 			defaultConfigurationName = Release;
+>>>>>>> 1343a3645ab0afd0354e8c159d78dbe08d3eb457
 		};
 		C5968F331D04120F009BF877 /* Build configuration list for PBXNativeTarget "2-UITableViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,7 +522,10 @@
 				C5968F351D04120F009BF877 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+<<<<<<< HEAD
+=======
 			defaultConfigurationName = Release;
+>>>>>>> 1343a3645ab0afd0354e8c159d78dbe08d3eb457
 		};
 /* End XCConfigurationList section */
 	};
